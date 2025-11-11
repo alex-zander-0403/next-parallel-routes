@@ -5,6 +5,8 @@ export default function Card({ children }: { children: React.ReactNode }) {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    flexDirection: "column",
+    gap: 10,
     padding: 50,
     margin: 10,
 
